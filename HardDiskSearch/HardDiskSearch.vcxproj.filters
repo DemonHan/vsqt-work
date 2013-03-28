@@ -50,6 +50,12 @@
     <ClCompile Include="GeneratedFiles\qrc_harddisksearch.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="FileCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFileCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="harddisksearch.h">
@@ -65,6 +71,12 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_harddisksearch.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFileCheck.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
